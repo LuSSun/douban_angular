@@ -51,21 +51,3 @@ angular.module('moviecat.movie_list', ['ngRoute','moviecat.service.http'])
 	
 }]);
 
-
-
-
-
-
-
-
-// .controller('movieListCtrl', ['$scope','$http',function($scope,$http) {
-// 	$http.get('data.json').then(function(res){
-// 		if(res.status ===200){
-// 			$scope.subjects = res.data.subjects;
-// 			console.log(res)
-// 		}
-		
-		
-// 	})
-
-// }]);
